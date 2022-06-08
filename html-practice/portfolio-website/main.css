@@ -1,0 +1,40 @@
+body {
+  font-family: monospace;
+  background-color: #918449;
+}
+
+a {
+  color: #64038f;
+  border: 2px solid #496e91;
+}
+h1 {
+  text-align: center;
+  color: #245c91;
+}
+
+h3{
+  color: #245c91
+}
+
+b {
+  color: #64038f
+}
+
+img{
+  width: 30%;
+  height: auto
+}
+
+form{
+  background-color: #496e91
+}
+
+table, th, td {
+  text-align: center;
+  border: 3px solid #496e91;
+}
+
+li {
+  padding: 10px;
+  float: left;
+}
