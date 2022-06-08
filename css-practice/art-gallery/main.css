@@ -1,0 +1,52 @@
+body {
+  background-color: #92b8f0;
+}
+
+h1 {
+  border: 7px solid #95f092;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.intro{
+  background-color: #f0ca92;
+  padding-top: 2px
+}
+
+.paintings{
+  border: 5px solid #912a2a;
+}
+
+#bird{
+  width: 20%;
+  height: auto;
+}
+
+.shop{
+  background-color: pink;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+.paintDisclousure{
+  background-color: #9f85cc;
+  width: 30%;
+  height: 100px;
+  position: relative;
+  top: 50px;
+  left: 0px;
+  padding-top: 50px
+}
+
+.copyright{
+  background-color: #92cc85;
+  position: relative;
+  top: 50px;
+  left: 0px;
+  width: 22%;
+}
