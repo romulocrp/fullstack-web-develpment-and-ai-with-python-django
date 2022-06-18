@@ -1,0 +1,73 @@
+/*
+color palette
+brown: #5A3921
+green: #6B8C42
+light green: #7BC67B
+yellow: #FFFFB5
+*/
+
+body {
+  background-color: #5A3921;
+}
+
+.navbar {
+  background-color: #6B8C42;
+}
+
+.navbar-toggler {
+  border-color:#FFFFB5;
+}
+
+.navbar a {
+  color: #FFFFB5;
+}
+
+.navbar-brand {
+  width: 2.5%;
+  height: auto;
+}
+
+.nav-link:hover {
+  color: #5A3921;
+}
+
+.nav-link:active {
+  color: #5A3921;
+}
+
+.btn {
+  border: 1px solid #FFFFB5;
+  color: #FFFFB5;
+}
+
+.btn:hover {
+  border: 1px solid #5A3921;
+  color: #FFFFB5;
+  background-color: #5A3921;;
+}
+
+.bg-light {
+  background-image: url(images/tomatos2.jpg);
+  background-size: cover;
+  background-position: 0.0005px;
+  color: #FFFFB5;
+}
+
+.btn-lg { 
+  background-color: #6B8C42;
+}
+
+.card {
+  background-color: #6B8C42;
+  color: #FFFFB5;
+}
+
+.btn-primary {
+  background-color: #6B8C42;
+  color: #FFFFB5;
+}
+
+#icon {
+  width: 100%;
+  height: auto;
+}
