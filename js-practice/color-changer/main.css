@@ -1,0 +1,21 @@
+#boxOne {
+    background-color: chartreuse;
+    width: 30%;
+    height: 50px;
+    padding: 50px;
+    text-align: center;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#boxTwo {
+    background-color: lightsalmon;
+    width: 30%;
+    height: 50px;
+    padding: 50px;
+    text-align: center;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 150px;
+}

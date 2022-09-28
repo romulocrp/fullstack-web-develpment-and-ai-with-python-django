@@ -1,0 +1,3 @@
+function dtGen() {
+    alert(Date());
+}
