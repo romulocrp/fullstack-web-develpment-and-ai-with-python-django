@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Reaction Time Test</title>
+</head>
+<body>
+    <div id="reactionInfo">
+
+        <h1>Reaction time test!</h1>
+
+        <h3>Click on the forms apperaring on the screen as fast as you can<br>and check your reaction time.</h3>
+
+        <p id="reactionOut">Your time was: <span id="seconds">00</span>:<span id="miliseconds">00</span>.</p>
+
+        <button onclick="start()">Start!</button>
+        <button onclick="reset()">Reset</button>
+
+    </div>
+
+    <div id="circle" onclick="stop()"></div>
+    <div id="triangule" onclick="stop()"></div>
+    <div id="square" onclick="stop()"></div>
+
+    <script type="text/javascript" src="reactionTime.js"></script>
+</body>
+</html>
