@@ -9,7 +9,7 @@ function tipCalculation() {
         document.getElementById("tipAmountResult").innerHTML = "<b>Bill must be<br>higher than 0!</b>";
     } else if (split == "") {
         document.getElementById("tipAmountResult").innerHTML = "<b>Please insert the<br>number of people.";
-    } else if (split == 0){
+    } else if (split == 0 | split == 1){
         var tip = (bill * percSelect);
         document.getElementById("tipAmountResult").innerHTML = `<b>Tip Amount:<br>${Math.round(tip)}</b>`;
     } else {
