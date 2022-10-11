@@ -2,8 +2,6 @@ var formsList = ["circle", "triangule", "square"];
 var colorList = ["red", "yellow", "green"];
 var appendSeconds = document.getElementById("seconds");
 var appendMiliseconds = document.getElementById("miliseconds");
-var startButton = document.getElementById("startButton");
-var stopButton = document.getElementById("stopButton");
 var seconds = 00;
 var miliseconds = 00;
 var interval ;
