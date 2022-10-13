@@ -1,3 +1,7 @@
+"""
+Also the same solution for the revisited practice.
+"""
+
 import random
 
 num = random.randint(1, 100)
