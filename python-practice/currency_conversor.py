@@ -9,6 +9,9 @@ class CurrencyConverter:
 
     def amount_input(self):
         self.amount = float(input("Insert the amount of USD for conversion: "))
+        while self.amount < 0:
+            print("Value lower than 0, please insert a positive value.\n")
+            self.amount = float(input("Insert the amount of USD for conversion: "))
         return self.amount
 
     def currency_input(self):
