@@ -7,10 +7,13 @@ class BasicCalculator():
         self.b = b
         self.c = c
 
-    def user_input_values(self):
+    def user_input_name(self):
         self.name = input("What's your name?\n")
+        return self.name
+
+    def user_input_values(self):
         self.a, self.b, self.c = [float(x) for x in input("Input your numbers, separated by space:\n").split()]
-        return self.name, self.a, self.b, self.c
+        return self.a, self.b, self.c
 
     def print_results(self):
         result = (self.a + self.b) * self.c
@@ -20,5 +23,6 @@ The result is: {result:.2f}"
 
 if __name__=="__main__":
     bc = BasicCalculator()
+    bc.user_input_name()
     bc.user_input_values()
     print(bc.print_results())
